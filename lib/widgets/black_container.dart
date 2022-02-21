@@ -10,7 +10,7 @@ class BlackContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.height * 0.79,
+      height: MediaQuery.of(context).size.height * 0.75,
       decoration: const BoxDecoration(
         color: Colors.black,
         borderRadius: BorderRadius.only(
@@ -174,6 +174,7 @@ class BlackContainer extends StatelessWidget {
               height: MediaQuery.of(context).size.height * 0.04,
             ),
             Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               children:  [
               const  Text(
                   "Don't have an account?",

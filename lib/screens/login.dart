@@ -17,7 +17,7 @@ class _DemoTestState extends State<DemoTest> {
     return Scaffold(
       body: SingleChildScrollView(
         child: ColumnSuper(
-            innerDistance: -MediaQuery.of(context).size.height * 0.25,
+            innerDistance: -MediaQuery.of(context).size.height * 0.16,
             children: const [
                UpperContainer(),
                BlackContainer(),
